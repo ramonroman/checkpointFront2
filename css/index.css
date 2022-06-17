@@ -4,12 +4,15 @@
     padding: 0px;
     text-decoration: none;
     scroll-behavior: smooth;
+
 }
 
 body{
     max-width: 425px;
     font-family: 'roboto', sans-serif;
     letter-spacing: 2px;
+    overflow-x: hidden;
+    background-color: black;
 }
 
 
@@ -37,6 +40,11 @@ header a{
 header img{
     width: 50px;
 }
+
+nav{
+    display: flex;
+}
+
 
 .banner{
     display: flex;
@@ -124,7 +132,6 @@ main {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap; 
-
     background-image: url("../img/bannergames.webp");
     background-repeat: no-repeat;
     background-size: cover;
