@@ -284,7 +284,7 @@ footer img{
 
 /* Ajuste para resolução até 1280px */
 
-@media (min-width: 426px) and (max-width: 1280px){
+    @media (min-width: 426px) and (max-width: 1280px){
     body{
         max-width: 1280px;
         font-family: 'roboto', sans-serif;
@@ -573,296 +573,294 @@ footer img{
 
 
 }
+    /* Resoluções superiores a 1280px*/
+    @media (min-width: 1281px) and (max-width: 3000px){
+        body{
+            max-width: 3000px;
+            font-family: 'roboto', sans-serif;
+            letter-spacing: 2px;
+        }
 
-@media (min-width: 1281px) and (max-width: 3000px){
-    body{
-        max-width: 3000px;
-        font-family: 'roboto', sans-serif;
-        letter-spacing: 2px;
+        header{
+            display: flex;
+            align-items: center;
+            justify-content:space-between ;
+            width: 100%;
+            height: 90px;
+            background-color: rgb(66, 2, 66);
+            padding: 10px 50px;
+        }
+
+        header li{
+            list-style: none;
+            display: inline-flex;
+        }
+
+        .nav-btn{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            border-radius: 20px;
+            width: 100px;
+            height: 30px;
+            font-size: 18px;
+        }
+
+        #color{
+            color: red;
+        }
+
+        header a{
+            color: white;
+            margin: 20px;
+            text-decoration: none;
+        }
+
+        header img{
+            width: 70px;
+        }
+
+        .banner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: 100%;
+            height: 100vh;
+            background-image: url("../img/bannergames.webp");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment: fixed;
+        }
+
+        .ver-mais{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 10px;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .btn-banner{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'roboto';
+            font-size: 50px;
+            height: 100px;
+            width: 500px;
+            background-color: purple;
+            opacity: 0.7;
+            margin-top: 90px;
+            border: 2px solid black;
+        }
+
+        .container-ver-mais{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 50%;
+            height: 100%;
+            padding: 10px 0;
+            gap: 10px;
+        }
+
+        .ver-mais h1{
+            width: 100%;
+            text-align: left;
+            color: red;
+            opacity: 0.8;
+            font-size:100px;
+        }
+
+        .ver-mais p{
+            text-align: left;
+            width: 100%;
+            color: white;
+            font-size: 50px;
+
+        }
+
+        #games{
+            width: 100%;
+            color: white;
+            background-color: rgb(66, 2, 66);
+            text-align: center;
+            font-size: 50px;
+        }
+
+        main {
+            padding: 50px 0px;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap; 
+            background-image: url("../img/bannergames.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+            padding: 10px 0px;
+        }
+
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            width: 700px;
+            height: 500px;
+            border: 1px solid whitesmoke;
+            margin-top: 20px;
+            background-color: rgb(66, 2, 66);
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px purple;
+            margin-left: 30px;
+        }
+
+        h2 {
+            text-align: center;
+            padding-top:20px;
+        }
+
+        .card-content{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 300px;
+            color: Pink;
+        }
+
+        .card-text{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            width: 680px;
+            height: 230px;
+            text-align: left;
+            margin-top: 10px;
+            padding: 10px 10px;
+            background-color: rgb(0, 0, 0);
+            opacity: 0.5;
+            color: white;
+            border-radius: 10px;
+            padding-bottom: 100px;
+        }
+
+        button{
+            display: flex;
+            position: relative;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 50px;
+            top: -70px;
+            border-radius: 10px;
+            opacity: 0.5;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+
+        button a{
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+
+        .cards img{
+            display: flex;
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 250px;
+            background-color:rgb(66, 2, 66);
+            padding: 40px 20px;
+            gap: 5px;
+            font-size: 14px;
+            color: pink;
+
+        }
+
+        footer img{
+            width: 30px;
+            border-radius: 100%;
+        }
+
+        #aluno1{
+            width: 33.33%;
+            gap: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+
+        #aluno1 p{
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        #aluno2{
+            width: 33.33%;
+            gap: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #aluno2 p{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        #aluno3{
+            width: 33.33%;
+            gap: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+
+        #aluno3 p{
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        #copyright{
+            position: relative;
+            right: 1670px;
+            width: 100%;
+        }
+
     }
-
-    header{
-        display: flex;
-        align-items: center;
-        justify-content:space-between ;
-        width: 100%;
-        height: 90px;
-        background-color: rgb(66, 2, 66);
-        padding: 10px 50px;
-    }
-
-    header li{
-        list-style: none;
-        display: inline-flex;
-    }
-
-    .nav-btn{
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        border-radius: 20px;
-        width: 100px;
-        height: 30px;
-        font-size: 18px;
-    }
-
-    #color{
-        color: red;
-    }
-
-    header a{
-        color: white;
-        margin: 20px;
-        text-decoration: none;
-    }
-
-    header img{
-        width: 70px;
-    }
-
-    .banner{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        background-image: url("../img/bannergames.webp");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center top;
-        background-attachment: fixed;
-    }
-
-    .ver-mais{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        gap: 10px;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.8);
-    }
-
-    .btn-banner{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'roboto';
-        font-size: 50px;
-        height: 100px;
-        width: 500px;
-        background-color: purple;
-        opacity: 0.7;
-        margin-top: 90px;
-        border: 2px solid black;
-    }
-
-    .container-ver-mais{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 50%;
-        height: 100%;
-        padding: 10px 0;
-        gap: 10px;
-    }
-
-    .ver-mais h1{
-        width: 100%;
-        text-align: left;
-        color: red;
-        opacity: 0.8;
-        font-size:100px;
-    }
-
-    .ver-mais p{
-        text-align: left;
-        width: 100%;
-        color: white;
-        font-size: 50px;
-
-    }
-
-    #games{
-        width: 100%;
-        color: white;
-        background-color: rgb(66, 2, 66);
-        text-align: center;
-        font-size: 50px;
-    }
-
-    main {
-        padding: 50px 0px;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        width: 100%;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap; 
-        background-image: url("../img/bannergames.webp");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: row;
-        width: 100%;
-        height: 100%;
-        padding: 10px 0px;
-    }
-
-    .cards{
-        display: flex;
-        flex-wrap: wrap;
-        width: 700px;
-        height: 500px;
-        border: 1px solid whitesmoke;
-        margin-top: 20px;
-        background-color: rgb(66, 2, 66);
-        border-radius: 10px;
-        box-shadow: 5px 5px 5px purple;
-        margin-left: 30px;
-    }
-
-    h2 {
-        text-align: center;
-        padding-top:20px;
-    }
-
-    .card-content{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 300px;
-        color: Pink;
-    }
-
-    .card-text{
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        width: 680px;
-        height: 230px;
-        text-align: left;
-        margin-top: 10px;
-        padding: 10px 10px;
-        background-color: rgb(0, 0, 0);
-        opacity: 0.5;
-        color: white;
-        border-radius: 10px;
-        padding-bottom: 100px;
-    }
-
-    button{
-        display: flex;
-        position: relative;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        width: 300px;
-        height: 50px;
-        top: -70px;
-        border-radius: 10px;
-        opacity: 0.5;
-        background-color: black;
-        color: white;
-        cursor: pointer;
-    }
-
-    button a{
-        text-align: center;
-        text-decoration: none;
-        color: white;
-    }
-
-    .cards img{
-        display: flex;
-        width: 100%;
-        height: 200px;
-        border-radius: 10px;
-    }
-
-    footer{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 250px;
-        background-color:rgb(66, 2, 66);
-        padding: 40px 20px;
-        gap: 5px;
-        font-size: 14px;
-        color: pink;
-
-    }
-
-    footer img{
-        width: 30px;
-        border-radius: 100%;
-    }
-
-    #aluno1{
-        width: 33.33%;
-        gap: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-    }
-
-    #aluno1 p{
-        width: 100%;
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    #aluno2{
-        width: 33.33%;
-        gap: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    #aluno2 p{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    #aluno3{
-        width: 33.33%;
-        gap: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-    }
-
-    #aluno3 p{
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    #copyright{
-        position: relative;
-        right: 1670px;
-        width: 100%;
-    }
-
-
-
-}
