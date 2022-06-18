@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    max-width: 425px;
+    font-family: 'roboto', sans-serif;
+    letter-spacing: 2px;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(66, 2, 66);
+    padding: 0 20px;
+}
+nav{
+    display: flex;
+
+
+}
+
+header li{
+   
+    
+}
+
+header a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+
+}
+
+header img{
+    width: 50px;
+}
+
+nav{
+    display: flex;
+}
+
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/bannergames.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.ver-mais{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* .btn-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'roboto';
+    font-size: 25px;
+    height: 50px;
+    width: 300px;
+    background-color: purple;
+    opacity: 0.7;
+    margin-top: 50px;
+    box-shadow: 0px 3px 2px purple;
+} */
+
+.abrirModal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'roboto';
+    font-size: 25px;
+    height: 50px;
+    width: 300px;
+    background-color: purple;
+    opacity: 0.7;
+    margin-top: 50px;
+    box-shadow: 0px 3px 2px purple;
+
+}
+
+
+.container-ver-mais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 425px;
+    height: 100%;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.ver-mais h1{
+    width: 70%;
+    color: red;
+    opacity: 0.8;
+    font-size: 40px;
+    text-align: left;
+}
+
+.ver-mais p{
+    text-align: left;
+    color: white;
+    width: 70%;
+    font-size: 18px;
+}
+
+
+#games{
+    width: 425px;
+    color: white;
+    background-color: rgb(66, 2, 66);
+    text-align: center;
+    font-size: 20px;
+}
+
+.modal{
+    background-color: white;
+
+
+}
+
+
+main img{
+    
+
+}
