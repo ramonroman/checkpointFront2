@@ -14,48 +14,48 @@
     <header>
         <img src="img/joystick.png" alt="Logo Joystick">
 
-        <nav role="navigation">
+       <!--  <nav role="navigation">
             <div id="menuToggle">
                 <input type="checkbox">
                 <span></span>
                 <span></span>
                 <span></span>
-            <ul id="menu">
-                <a id="color"class="nav-btn"><li >Home</li></a>
+            <ul id="menu"> -->
+                <!-- a id="color"class="nav-btn"><li >Home</li></a>
                 <a href="#games"class="nav-btn"><li >Jogos</li></a>
-                <a href="#footer"class="nav-btn"><li >Sobre nós</li></a>
-                <a class="nav-btn"><li >Login</li></a>
+                <a href="#footer"class="nav-btn"><li >Sobre nós</li></a> -->
+                <a class="nav-btn" href="#modal"><li >Login</li></a>
             </ul>
             </div>
         </nav>
     </header>
 
-
+    <main>  
 
     <section class="banner">
         <section class="ver-mais">
             <div class="container-ver-mais">
             <h1>Games Flix</h1>
-            <p>Confira a maior coletânea de games que a GamesFlix tem a te oferecer</p>
-            <label for="modal"  class="abrirModal" href="#games" class="btn-banner">Explorar</label>
-            <input type="checkbox" id="modal" class="checkboxModal">
+            <p>Confira a maior coletânea de games que a GamesFlix tem a te oferecer</p>                                                                                                                                                     
+            <a href="#modal"  class="abrirModal"> <button href="#modal"   class="btn-banner">Explorar</button></a>
+            
+
             </div>
         </section>
     </section>
 
-    <main>
-        <div class="modal">
-            <img src="img/joystick.png" alt="Logo Joystick">
-            <form>
-                <label for="email">email</label>
+    
+        <div id="modal" class="modal">
+        <a href="#"  class="fecharModal">X</a>
+            <img class="joystick"src="img/joystick.png" alt="Logo Joystick">
+            <img class="background"src="https://img.freepik.com/fotos-gratis/homens-jogando-videogame_137573-639.jpg?w=996" alt="homem_jogando">
+            <form class="login">
+                <label for="email">Email</label>
                 <input type="email" id="email" name="email"><br>
-                <label for="password">senha</label>
+                <label for="password">Senha</label>
                 <input type="password" id="password" name="password">
+                <input class="btn_Enviar"  type="submit" value="Login">
             </form>
-            <label for="modal">X</label>
-
-            
-          
             
 
         </div>

@@ -78,8 +78,16 @@ nav{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
 }
+section a 
+{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    top: -3%;   
+}
 
-/* .btn-banner{
+/* .abrirModal{
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,10 +98,15 @@ nav{
     background-color: purple;
     opacity: 0.7;
     margin-top: 50px;
-    box-shadow: 0px 3px 2px purple;
+    box-shadow: 0px 3px 2px purple; 
+    text-decoration: none;
+
+
+
 } */
 
-.abrirModal{
+
+.btn-banner{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,8 +118,8 @@ nav{
     opacity: 0.7;
     margin-top: 50px;
     box-shadow: 0px 3px 2px purple;
-
-}
+    cursor: pointer;
+} 
 
 
 .container-ver-mais{
@@ -145,14 +158,88 @@ nav{
     font-size: 20px;
 }
 
-.modal{
-    background-color: white;
 
+
+ .modal{ 
+    background-color: black;
+    position: fixed;
+    visibility: hidden;
+    top: 15%;
+    left: 25%;
+    width: 49vw;
+    height: 78vh;
+    opacity: 1;
+    border-radius: 100px;
+    border-radius: 14px;
+   
+
+} 
+
+
+
+.modal:target
+{
+    visibility: visible;
+    opacity: 1;
+    
+} 
+
+
+
+
+.joystick{
+    position: absolute;
+    top: 9%;
+    left: 39%;
+    right: 0%;
+    bottom: 0%; 
+    width: 100px;
+    height: 100px;
+
+}
+
+.login
+{
+    position: absolute;
+    top: 39%;
+    left: 34%;
+    right: 0%;
+    bottom: 1%;
+    width: 111px;
+    height: 108px;
 
 }
 
 
-main img{
-    
+.background
+{
+  
+    position: relative;
+    top: -5%;
+    left: 0%;
+    right: 0%;
+    bottom: 1%;
+    width: 49vw;
+    height: 79vh;
+    opacity: 143%;
+    z-index: -2;
+    border-radius: 14px;
 
+
+}
+
+.btn_Enviar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'roboto';
+    font-size: 19px;
+    height: 36px;
+    width: 175px;
+    background-color: purple;
+    opacity: 5.7;
+    margin-top: 17px;
+    box-shadow: 0px 3px 2px purple;
+    cursor: pointer;
 }
