@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/tlou.css">
+    <link rel="stylesheet" href="css/menu2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">
@@ -14,67 +15,100 @@
     <header>
         <img src="img/joystick.png" alt="Logo Joystick">
 
-        <nav> 
-            <ul>
-                <a id="color"class="nav-btn"><li >Home</li></a>
-                <a class="nav-btn"><li >Jogos</li></a>
-                <a class="nav-btn"><li >Sobre nós</li></a>
-                <a class="nav-btn"><li >Login</li></a>
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            <ul id="menu">
+                <a href="./index.html" class="nav-btn"><li >Home</li></a>
+                <a href="#about"class="nav-btn"><li >Sobre</li></a>
+                <a href="#footer"class="nav-btn"><li >Sobre nós</li></a>
+                <a href="#modal" class="nav-btn"><li >Login</li></a>
             </ul>
+            </div>
         </nav>
-
-
     </header>
+    
 
     <section class="banner">
         <section class="ver-mais">
             <div class="container-ver-mais">
-            <h1 >The Last of Us - Part II</h1>
-            <p>Sobrevivência acima de tudo!</p>
+                <h1 >The Last of Us - Part II</h1>
+                <p>Sobrevivência acima de tudo!</p>
             </div>
         </section>
-    
+                
+        <!--Modal-->
+        <div id="modal" class="modal">
+            <a href="#"  class="fecharModal">X</a>
+                <img class="joystick"src="img/joystick.png" alt="Logo Joystick">
+                <img class="background"src="https://img.freepik.com/fotos-gratis/homens-jogando-videogame_137573-639.jpg?w=996" alt="homem_jogando">
+                <form class="login">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password">
+                    <input class="btn_Enviar"  type="submit" value="Login">
+                </form> 
+        </div>
     </section>
 
-    <main>
-        <section class="container">
-            <section class="about">
-                <p>
-                    Ambientado cinco anos após os eventos de The Last of Us (2013), o jogador assume o papel de duas protagonistas em um Estados Unidos pós-apocalíptico: Ellie, que busca por vingança após um evento traumático, e Abby, uma soldada que se envolve em um conflito entre uma milícia e um culto.                
-                </p>
-            </section>
+    <main id="about">
 
-            <section>
+        <section class="container">
+            <section class="card-content">
+            <div class="icon">
+                <h1 class="nota">The Last of Us:  Part II</h1>
+                <a href="https://www.naughtydog.com/" target="_blank"> <p>Naughty Dog</p></a>
+                <a href="https://www.sie.com/en/index.html" target="_blank"><p>Sony Interactive Entertainment</p></a>
+                <div class="icons8-estrelas-da-briga"></div>
+                <div class="icons8-estrelas-da-briga"></div>
+                <div class="icons8-estrelas-da-briga"></div>
+                <div class="icons8-estrelas-da-briga"></div>
+                <div class="icons9-estrelas-da-briga"></div>    
+            </div>
+             
+            <section class="about">
+                <div class="card-text">
+                    <p>
+                        Ambientado cinco anos após os eventos de The Last of Us (2013), o jogador assume o papel de duas protagonistas em um Estados Unidos pós-apocalíptico: Ellie, que busca por vingança após um evento traumático, e Abby, uma soldada que se envolve em um conflito entre uma milícia e um culto.                
+                    </p>
+                </div>
+            </section>
+        </section>
+    </section>
+
+            <section class="video">
             <h2>Trailer</h2>
             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7ksH7-9vWZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
-        </section>
 
     </main>
-
-    <footer>
+    <footer id="footer">
 
         <div id="aluno1">
             <h2>Ramon Roman</h2>
-            <p>Responsável pelo desenvolvimento do código</p>
-           <a href="https://www.linkedin.com/in/ramon-roman-mauri-junior-878160109/" target="_blank"><img  src="img/linkedin.png"></a>
-           <a href="https://github.com/ramonroman" target="_blank"><img  src="img/github.png"></a>
+            <p>Responsável pelo desenvolvimento do código, organização, estrutura de páginas, responsividade, imagens, modelos e textos.</p>
+           <a href="https://www.linkedin.com/in/ramon-roman-mauri-junior-878160109/" target="_blank"><img  src="img/linkedin.png" alt="logo LinkedIn"></a>
+           <a href="https://github.com/ramonroman" target="_blank"><img id="git" src="img/github.png" alt="logo github"></a>
         </div>
 
 
         <div id="aluno2">
             <h2>Johni Tobias</h2>
-            <p>Responsável pelo desenvolvimento do código</p>
-            <a href="" target="_blank"> <img src="img/linkedin.png"></a>
-            <a href="" target="_blank"> <img src="img/github.png"></a>
+            <p>Responsável pelo desenvolvimento do código, criação do menú Hamburguer, estilização e correção.</p>
+            <a href="" target="_blank"> <img src="img/linkedin.png" alt="logo LinkedIn"></a>
+            <a href="" target="_blank"> <img id="git"  src="img/github.png" alt="logo github"></a>
         </div>
         
 
         <div id="aluno3">
             <h2>Pedro Simplício</h2>
-            <p>Responsável pelo desenvolvimento do código</p>
-            <a href="" target="_blank"><img src="img/linkedin.png"></a>
-            <a href="" target="_blank"><img src="img/github.png"></a>
+            <p>Responsável pelo desenvolvimento do código, criação do Modal de Login, estilização e correção.</p>
+            <a href="" target="_blank"><img src="img/linkedin.png" alt="logo LinkedIn"></a>
+            <a href="" target="_blank"><img id="git"  src="img/github.png" alt="logo github"></a>
         </div>
 
         <div id="copyright">

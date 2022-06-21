@@ -22,10 +22,10 @@
                 <span></span>
                 <span></span>
             <ul id="menu">
-                <a id="color"class="nav-btn"><li >Home</li></a>
-                <a href="#games"class="nav-btn"><li >Jogos</li></a>
+                <a href="./index.html" class="nav-btn"><li >Home</li></a>
+                <a href="#about"class="nav-btn"><li >Sobre</li></a>
                 <a href="#footer"class="nav-btn"><li >Sobre nós</li></a>
-                <a class="nav-btn"><li >Login</li></a>
+                <a href="#modal" class="nav-btn"><li >Login</li></a>
             </ul>
             </div>
         </nav>
@@ -34,51 +34,81 @@
     <section class="banner">
         <section class="ver-mais">
             <div class="container-ver-mais">
-            <h1 >Bloodborne</h1>
-            <p>RPG GÓTICO PUNITIVO</p>
+                <h1 >Bloodborne</h1>
+                <p>RPG GÓTICO PUNITIVO</p>
             </div>
         </section>
-    
+                
+        <!--Modal-->
+        <div id="modal" class="modal">
+            <a href="#"  class="fecharModal">X</a>
+                <img class="joystick"src="img/joystick.png" alt="Logo Joystick">
+                <img class="background"src="https://img.freepik.com/fotos-gratis/homens-jogando-videogame_137573-639.jpg?w=996" alt="homem_jogando">
+                <form class="login">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password">
+                    <input class="btn_Enviar"  type="submit" value="Login">
+                </form> 
+        </div>
     </section>
 
-    <main>
-        <section class="container">
-            <section class="about">
-                <p> Bloodborne tem lugar em Yharnam, uma cidade gótica/vitoriana e em ruínas, onde segundo os rumores, alberga um poderoso medicamento. Ao longo dos anos muitos viajantes faziam peregrinações à cidade procurando cura para as suas aflições; o jogador tem o papel de um desses viajantes.
-                </p>
-            </section>
+    <main id="about">
 
-            <section>
-            <h2>Trailer</h2>
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/G203e1HhixY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <section class="container">
+            <section class="card-content">
+            <div class="icon">
+                <h1 class="nota">Bloodborne</h1>
+                <a href="https://www.fromsoftware.jp/ww/" target="_blank"> <p>From Software</p></a>
+                <a href="https://www.bandainamcoent.com/pt-br/" target="_blank"><p>Bandai Namco Entertainment</p></a>
+                <div class="icons8-estrelas-da-briga"></div>
+                <div class="icons8-estrelas-da-briga"></div>
+                <div class="icons8-estrelas-da-briga"></div>
+                <div class="icons8-estrelas-da-briga"></div>
+                <div class="icons9-estrelas-da-briga"></div>    
+            </div>
+             
+            <section class="about">
+                <div class="card-text">
+                    <p>
+                        Bloodborne tem lugar em Yharnam, uma cidade gótica/vitoriana e em ruínas, onde segundo os rumores, alberga um poderoso medicamento. Ao longo dos anos muitos viajantes faziam peregrinações à cidade procurando cura para as suas aflições; o jogador tem o papel de um desses viajantes.
+                   </p>
+                   </div>
+
             </section>
         </section>
+    </section>
+
+            <section class="video">
+                <h2>Trailer</h2>
+            	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/G203e1HhixY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
 
     </main>
-
-    <footer>
+    <footer id="footer">
 
         <div id="aluno1">
             <h2>Ramon Roman</h2>
-            <p>Responsável pelo desenvolvimento do código</p>
-           <a href="https://www.linkedin.com/in/ramon-roman-mauri-junior-878160109/" target="_blank"><img  src="img/linkedin.png"></a>
-           <a href="https://github.com/ramonroman" target="_blank"><img  src="img/github.png"></a>
+            <p>Responsável pelo desenvolvimento do código, organização, estrutura de páginas, responsividade, imagens, modelos e textos.</p>
+           <a href="https://www.linkedin.com/in/ramon-roman-mauri-junior-878160109/" target="_blank"><img  src="img/linkedin.png" alt="logo LinkedIn"></a>
+           <a href="https://github.com/ramonroman" target="_blank"><img id="git" src="img/github.png" alt="logo github"></a>
         </div>
 
 
         <div id="aluno2">
             <h2>Johni Tobias</h2>
-            <p>Responsável pelo desenvolvimento do código</p>
-            <a href="" target="_blank"> <img src="img/linkedin.png"></a>
-            <a href="" target="_blank"> <img src="img/github.png"></a>
+            <p>Responsável pelo desenvolvimento do código, criação do menú Hamburguer, estilização e correção.</p>
+            <a href="" target="_blank"> <img src="img/linkedin.png" alt="logo LinkedIn"></a>
+            <a href="" target="_blank"> <img id="git"  src="img/github.png" alt="logo github"></a>
         </div>
         
 
         <div id="aluno3">
             <h2>Pedro Simplício</h2>
-            <p>Responsável pelo desenvolvimento do código</p>
-            <a href="" target="_blank"><img src="img/linkedin.png"></a>
-            <a href="" target="_blank"><img src="img/github.png"></a>
+            <p>Responsável pelo desenvolvimento do código, criação do Modal de Login, estilização e correção.</p>
+            <a href="" target="_blank"><img src="img/linkedin.png" alt="logo LinkedIn"></a>
+            <a href="" target="_blank"><img id="git"  src="img/github.png" alt="logo github"></a>
         </div>
 
         <div id="copyright">
