@@ -4,7 +4,7 @@
  box-sizing: border-box;
 }
 body{
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 #menuToggle{
@@ -21,9 +21,7 @@ body{
 }
 
 #menuToggle a:hover{
-
     color: red;
-
 }
 
 #menuToggle input{
@@ -38,8 +36,6 @@ body{
     opacity: 0;
     z-index: 2;
     -webkit-touch-callout: none;
-
-  
 }
 
 #menuToggle span{
@@ -89,7 +85,7 @@ body{
 #menu
 {
   position: absolute;
-  width: 190px;
+  width: 191px;
   margin: -100px 60px 0px 60px;
   padding: 50px;
   padding-top: 125px;
