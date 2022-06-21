@@ -48,6 +48,9 @@ nav{
     display: flex;
 }
 
+.nav-desktop{
+    display: none;
+}
 
 .banner{
     display: flex;
@@ -401,15 +404,23 @@ footer img{
         display: inline-flex;
     }
 
+
+    .nav-desktop{
+        display: inline-flex;
+    }
+
+    .nav-desktop a:hover{
+        color: red;
+    }
+
     .nav-btn{
         display: inline-flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        border-radius: 20px;
         width: 100px;
         height: 30px;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     #color{
@@ -418,7 +429,7 @@ footer img{
 
     header a{
         color: white;
-        margin: 20px;
+        margin: 5px;
         text-decoration: none;
     }
 
@@ -495,6 +506,82 @@ footer img{
 
     }
 
+    /*Começo Modal*/
+    .modal{ 
+        position: fixed;
+        visibility: hidden;
+        top: 25%;
+        left: 15%;
+        width: 49vw;
+        height: 78vh;
+        opacity: 1;
+        border-radius: 100px;
+        border-radius: 14px;
+        z-index: 1;
+    } 
+
+    .modal:target
+    {
+        visibility: visible;
+        opacity: 1;
+        
+    } 
+
+    .joystick{
+        position: absolute;
+        top: 9%;
+        left: 66%;
+        right: 0%;
+        bottom: 0%; 
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .login
+    {
+        color: white;
+        position: absolute;
+        top: 29%;
+        left: 60%;
+        right: 0%;
+        bottom: 1%;
+        width: 111px;
+        height: 108px;
+    }
+
+    .background
+    {
+        position: relative;
+        top: -5%;
+        left: 0%;
+        right: 0%;
+        bottom: 1%;
+        width: 70vw;
+        height: 50vh;
+        opacity: 143%;
+        z-index: -2;
+        border-radius: 14px;
+    }
+
+    .btn_Enviar
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'roboto';
+        font-size: 19px;
+        height: 36px;
+        width: 175px;
+        background-color: purple;
+        opacity: .9;
+        color: white;
+        margin-top: 17px;
+        box-shadow: 0px 3px 2px purple;
+        cursor: pointer;
+    }
+    /*Fim Modal*/
+
     #games{
         width: 100%;
         color: white;
@@ -504,12 +591,11 @@ footer img{
     }
 
     main {
-        padding: 0px 10px;
+        padding: 20px 10px;
         display: flex;
         flex-direction: column;
         height: 100%;
         width: 100%;
-        
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap; 
@@ -533,14 +619,14 @@ footer img{
     .cards{
         display: flex;
         flex-wrap: wrap;
-        width: 400px;
+        width: 350px;
         height: 450px;
-        border: 1px solid whitesmoke;
         margin-top: 20px;
         background-color: rgb(66, 2, 66);
         border-radius: 10px;
         box-shadow: 5px 5px 5px purple;
-        margin-left: 10px;
+        margin: 20px 20px;
+ 
     }
 
     h2 {
@@ -561,7 +647,7 @@ footer img{
         justify-content: center;
         align-items: flex-start;
         flex-wrap: wrap;
-        width: 400px;
+        width: 320px;
         height: 230px;
         text-align: left;
         margin-top: 10px;
@@ -581,6 +667,7 @@ footer img{
         align-items: center;
         width: 300px;
         height: 50px;
+        margin-top: 10px;
         top: -70px;
         border-radius: 10px;
         opacity: 0.5;
@@ -608,9 +695,9 @@ footer img{
         justify-content: space-between;
         flex-wrap: wrap;
         width: 100%;
-        height: 250px;
+        height: 350px;
         background-color:rgb(66, 2, 66);
-        padding: 40px 20px;
+        padding: 40px 30px;
         gap: 5px;
         font-size: 14px;
         color: pink;
@@ -643,6 +730,7 @@ footer img{
         width: 100%;
         display: flex;
         justify-content: center;
+        text-align: center;
     }
 
     #aluno3{
@@ -657,12 +745,19 @@ footer img{
         width: 100%;
         display: flex;
         justify-content: flex-end;
+        text-align: right;
     }
 
     #copyright{
         position: relative;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        bottom: 20px;
         right: 825px;
-        width: 100%;
+
+
     }
 
 
@@ -783,6 +878,82 @@ footer img{
             font-size: 50px;
 
         }
+
+        /*Começo Modal*/
+        .modal{ 
+            position: fixed;
+            visibility: hidden;
+            top: 25%;
+            left: 5%;
+            width: 49vw;
+            height: 78vh;
+            opacity: 1;
+            border-radius: 100px;
+            border-radius: 14px;
+            z-index: 1;
+        } 
+
+        .modal:target
+        {
+            visibility: visible;
+            opacity: 1;
+            
+        } 
+
+        .joystick{
+            position: absolute;
+            top: 9%;
+            left: 50%;
+            right: 0%;
+            bottom: 0%; 
+            width: 100px;
+            height: 100px;
+
+        }
+
+        .login
+        {
+            color: white;
+            position: absolute;
+            top: 29%;
+            left: 30%;
+            right: 0%;
+            bottom: 1%;
+            width: 111px;
+            height: 108px;
+        }
+
+        .background
+        {
+            position: relative;
+            top: -5%;
+            left: 0%;
+            right: 0%;
+            bottom: 1%;
+            width: 70vw;
+            height: 50vh;
+            opacity: 143%;
+            z-index: -2;
+            border-radius: 14px;
+        }
+
+        .btn_Enviar
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'roboto';
+            font-size: 19px;
+            height: 36px;
+            width: 175px;
+            background-color: purple;
+            opacity: .9;
+            color: white;
+            margin-top: 17px;
+            box-shadow: 0px 3px 2px purple;
+            cursor: pointer;
+        }
+        /*Fim Modal*/
 
         #games{
             width: 100%;
