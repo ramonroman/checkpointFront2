@@ -209,7 +209,7 @@ main {
     display: flex;
     flex-direction: row;
     height: 100%;
-    width: 425px;
+    width: 100vw;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap; 
@@ -817,7 +817,7 @@ footer img{
             align-items: center;
             flex-wrap: wrap;
             flex-direction: column;
-            width: 100%;
+            width: 100vw;
             height: 100vh;
             background-image: url("../img/bannergames.webp");
             background-size: cover;
@@ -956,7 +956,7 @@ footer img{
         /*Fim Modal*/
 
         #games{
-            width: 100%;
+            width: 100vw;
             color: white;
             background-color: rgb(66, 2, 66);
             text-align: center;
@@ -968,7 +968,7 @@ footer img{
             display: flex;
             flex-direction: column;
             height: 100%;
-            width: 100%;
+            width: 100vw;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap; 
@@ -1066,7 +1066,7 @@ footer img{
             flex-direction: column;
             justify-content: space-between;
             flex-wrap: wrap;
-            width: 100%;
+            width: 100vw;
             height: 250px;
             background-color:rgb(66, 2, 66);
             padding: 40px 20px;
