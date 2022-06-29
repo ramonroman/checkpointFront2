@@ -545,11 +545,20 @@ footer img{
         opacity: 1;
         
     } 
+    .fecharModal{
+        position: fixed;
+        top: 24%;
+        left: 17%;
+        right: 0%;
+        bottom: 0%;
+        width: 6rem;
+
+    }
 
     .joystick{
         position: absolute;
         top: 9%;
-        left: 66%;
+        left: 53%;
         right: 0%;
         bottom: 0%; 
         width: 100px;
@@ -561,8 +570,8 @@ footer img{
     {
         color: white;
         position: absolute;
-        top: 29%;
-        left: 60%;
+        top: 25%;
+        left: 47%;
         right: 0%;
         bottom: 1%;
         width: 111px;
@@ -935,6 +944,16 @@ footer img{
             z-index: 1;
         } 
 
+        .fecharModal{
+            position: fixed;
+            top: 24%;
+            left: 17%;
+            right: 0%;
+            bottom: 0%;
+            width: 6rem;
+
+        }
+
         .modal:target
         {
             visibility: visible;
@@ -945,7 +964,7 @@ footer img{
         .joystick{
             position: absolute;
             top: 9%;
-            left: 50%;
+            left: 81%;
             right: 0%;
             bottom: 0%; 
             width: 100px;
@@ -957,8 +976,8 @@ footer img{
         {
             color: white;
             position: absolute;
-            top: 29%;
-            left: 30%;
+            top: 28%;
+            left: 77%;
             right: 0%;
             bottom: 1%;
             width: 111px;
@@ -969,7 +988,7 @@ footer img{
         {
             position: relative;
             top: -5%;
-            left: 0%;
+            left: 18%;
             right: 0%;
             bottom: 1%;
             width: 70vw;
