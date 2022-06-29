@@ -425,6 +425,10 @@ section a
 
 @media (min-width: 1025px) and (max-width: 1440px){
 
+
+    body{
+        overflow-x: hidden;
+    }
     .modal{ 
         background-color: black;
         position: fixed;
@@ -515,6 +519,10 @@ section a
     /* Resoluções superiores a 1280px*/
     @media (min-width: 2560px) and (max-width: 3000px){
     
+        body{
+            overflow-x: hidden;
+        }
+
         .modal{ 
             background-color: black;
             position: fixed;
@@ -529,8 +537,6 @@ section a
            
         
         } 
-    
-        
     
     .joystick{
         position: absolute;
